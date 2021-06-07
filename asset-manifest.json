@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/spenseCodewellChallenge/static/css/main.4405198c.chunk.css",
+    "main.js": "/spenseCodewellChallenge/static/js/main.feb035cc.chunk.js",
+    "main.js.map": "/spenseCodewellChallenge/static/js/main.feb035cc.chunk.js.map",
+    "runtime-main.js": "/spenseCodewellChallenge/static/js/runtime-main.9e3e13ae.js",
+    "runtime-main.js.map": "/spenseCodewellChallenge/static/js/runtime-main.9e3e13ae.js.map",
+    "static/js/2.913c1146.chunk.js": "/spenseCodewellChallenge/static/js/2.913c1146.chunk.js",
+    "static/js/2.913c1146.chunk.js.map": "/spenseCodewellChallenge/static/js/2.913c1146.chunk.js.map",
+    "index.html": "/spenseCodewellChallenge/index.html",
+    "static/css/main.4405198c.chunk.css.map": "/spenseCodewellChallenge/static/css/main.4405198c.chunk.css.map",
+    "static/js/2.913c1146.chunk.js.LICENSE.txt": "/spenseCodewellChallenge/static/js/2.913c1146.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/spenseCodewellChallenge/static/media/Checkmark.66aad624.svg",
+    "static/media/Hamburger Menu.c4da44b0.svg": "/spenseCodewellChallenge/static/media/Hamburger Menu.c4da44b0.svg",
+    "static/media/Hero Image.6533ca31.png": "/spenseCodewellChallenge/static/media/Hero Image.6533ca31.png",
+    "static/media/Phone Mockup.9c450f3a.png": "/spenseCodewellChallenge/static/media/Phone Mockup.9c450f3a.png",
+    "static/media/Text Editor.c48b1855.png": "/spenseCodewellChallenge/static/media/Text Editor.c48b1855.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e3e13ae.js",
+    "static/js/2.913c1146.chunk.js",
+    "static/css/main.4405198c.chunk.css",
+    "static/js/main.feb035cc.chunk.js"
+  ]
+}
