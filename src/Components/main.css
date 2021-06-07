@@ -1,0 +1,325 @@
+p {
+  color: #676463;
+}
+a {
+  color: #676463;
+}
+.main__share {
+  background: linear-gradient(white, lightgrey);
+}
+.main__share--text ul {
+  list-style: url("../Assets/Checkmark.svg");
+  color: #676463;
+}
+.main__share--start input {
+  color: grey;
+}
+.main__share--start button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.main__share--start button:hover {
+  background-color: #676463;
+}
+.main__share--start button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.main__secure {
+  background-color: lightgrey;
+}
+
+/* Smartphone view */
+@media (max-width: 575px) {
+  h2 {
+    font-size: 230%;
+    margin-bottom: 8px;
+  }
+  p {
+    line-height: 28px;
+    margin-top: 5px;
+  }
+  a {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .main__share {
+    padding: 4% 5% 5% 5%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .main__share img {
+    width: 95%;
+    height: auto;
+  }
+  .main__share--start {
+    display: flex;
+    align-items: baseline;
+  }
+  .main__share--text ul {
+    font-weight: 550;
+  }
+  .main__share--start input {
+    padding: 23px 35px;
+    font-size: 100%;
+    width: 45%;
+  }
+  .main__share--start button {
+    font-size: 100%;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 16px 13px;
+    width: 30%;
+  }
+  .main__social {
+    display: none;
+  }
+  .main__social--tablet {
+    display: none;
+  }
+  .main__social--mobile {
+    padding: 0 5% 5% 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__social--mobile img {
+    width: 30%;
+    height: auto;
+  }
+  .main__secure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+    padding: 2% 8% 0 10%;
+    border-radius: 10px;
+  }
+  .main__secure br {
+    display: block;
+    margin: 10px 0;
+  }
+  .main__secure img {
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+  }
+  .main__editor {
+    padding: 4% 5% 5% 5%;
+  }
+  .main__editor img {
+    margin-top: 8%;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 575px) and (max-width: 1024px) {
+  h2 {
+    font-size: 240%;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 112%;
+    line-height: 28px;
+    margin-top: 5px;
+  }
+  a {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .main__share {
+    padding: 4% 5% 5% 5%;
+    margin-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .main__share--img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  .main__share--img img {
+    width: 100%;
+    margin: 0 0 -200px 0;
+  }
+  .main__share--start {
+    display: flex;
+    align-items: baseline;
+  }
+  .main__share--text ul {
+    font-weight: 550;
+  }
+  .main__share--start input {
+    padding: 23px 35px;
+    font-size: 100%;
+    width: 35%;
+  }
+  .main__share--start button {
+    font-size: 100%;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 16px 13px;
+    width: 25%;
+  }
+  .main__social--mobile {
+    display: none;
+  }
+  .main__social {
+    display: none;
+  }
+
+  .main__social--tablet {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main__social--tablet img {
+    width: 25%;
+    height: auto;
+    padding: 0 3% 0 3%;
+  }
+  .main__secure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6% 4% 6% 4%;
+    padding: 3% 10% 0 10%;
+    border-radius: 15px;
+  }
+  .main__secure br {
+    display: block;
+    margin: 10px 0;
+  }
+  .main__secure img {
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+  }
+  .main__editor {
+    padding: 0 4%;
+  }
+  .main__editor img {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 230%;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 112%;
+    line-height: 28px;
+    margin-top: 5px;
+  }
+  a {
+    padding-top: 20px;
+    font-weight: 600;
+  }
+  .main__share {
+    background: lightgrey;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5% 5% 5%;
+    margin-bottom: 2%;
+  }
+  .main__share--text {
+    width: 60%;
+    padding-right: 5%;
+  }
+  .main__share--text ul {
+    font-weight: 550;
+  }
+  .main__share--img {
+    width: 33%;
+    height: auto;
+  }
+  .main__share--img img {
+    width: 100%;
+  }
+  .main__share--start input {
+    padding: 23px 35px;
+    font-size: 100%;
+    width: 40%;
+  }
+  .main__share--start button {
+    font-size: 100%;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 16px 13px;
+    width: 30%;
+  }
+  .main__social--mobile {
+    display: none;
+  }
+  .main__social--tablet {
+    display: none;
+  }
+  .main__social {
+    padding: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main__social img {
+    width: 10%;
+    height: auto;
+    padding: 0 1% 0 1%;
+    cursor: pointer;
+  }
+  .main__secure {
+    margin: 2% 10%;
+    padding: 5% 5% 0 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .main__secure--text {
+    width: 50%;
+    padding-right: 5%;
+  }
+  .main__secure--text h2 {
+    margin-top: 0;
+  }
+  .main__secure--text br {
+    display: block;
+    margin: 10px 0;
+  }
+  .main__secure img {
+    width: 50%;
+  }
+  .main__editor {
+    padding: 3% 10% 3% 2%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main__editor img {
+    width: 50%;
+    height: auto;
+  }
+  .main__editor--text {
+    width: 45%;
+  }
+}
